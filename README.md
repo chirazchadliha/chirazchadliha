@@ -1,4 +1,4 @@
-                                                      ## Hello World , I'm Chi O-o
+  ## Hello World , I'm Chi O-o
 
 <!--
 **chirazchadliha/chirazchadliha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
