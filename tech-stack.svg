@@ -1,0 +1,35 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Purple background with rounded corners and border -->
+  <rect width="400" height="400" rx="18" fill="#10002b" stroke="#7b2cbf" stroke-width="2.5"/>
+  
+  <!-- Title -->
+  <text x="200" y="55" text-anchor="middle" fill="#c4b5fd" font-size="24" font-family="Trebuchet MS, Verdana, sans-serif" font-weight="bold">🛠 Tech Stack</text>
+  
+  <!-- Laravel (top center) -->
+  <g transform="translate(200, 130)">
+    <animateTransform attributeName="transform" type="translate" values="200,130;200,118;200,130" dur="3s" repeatCount="indefinite"/>
+    <text x="0" y="0" text-anchor="middle" fill="#FF2D20" font-size="48" font-family="Arial, sans-serif">🔺</text>
+    <text x="0" y="28" text-anchor="middle" fill="#ffffff" font-size="13" font-family="Trebuchet MS, sans-serif">Laravel</text>
+  </g>
+
+  <!-- React (left middle) -->
+  <g transform="translate(100, 220)">
+    <animateTransform attributeName="transform" type="translate" values="100,220;100,210;100,220" dur="2.8s" repeatCount="indefinite"/>
+    <text x="0" y="0" text-anchor="middle" fill="#61DAFB" font-size="48">⚛️</text>
+    <text x="0" y="28" text-anchor="middle" fill="#ffffff" font-size="13">React</text>
+  </g>
+
+  <!-- Python (right middle) -->
+  <g transform="translate(300, 220)">
+    <animateTransform attributeName="transform" type="translate" values="300,220;300,208;300,220" dur="3.6s" repeatCount="indefinite"/>
+    <text x="0" y="0" text-anchor="middle" fill="#3776AB" font-size="48">🐍</text>
+    <text x="0" y="28" text-anchor="middle" fill="#ffffff" font-size="13">Python</text>
+  </g>
+
+  <!-- Machine Learning (bottom center) -->
+  <g transform="translate(200, 320)">
+    <animateTransform attributeName="transform" type="translate" values="200,320;200,308;200,320" dur="4s" repeatCount="indefinite"/>
+    <text x="0" y="0" text-anchor="middle" fill="#9d4edd" font-size="48">🧠</text>
+    <text x="0" y="28" text-anchor="middle" fill="#ffffff" font-size="13">ML / AI</text>
+  </g>
+</svg>
