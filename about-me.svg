@@ -1,4 +1,4 @@
-<svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="220" viewBox="0 0 500 220" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -13,41 +13,41 @@
   </defs>
 
   <!-- background -->
-  <rect width="600" height="250" rx="18" fill="url(#bgGrad)"/>
+  <rect width="500" height="220" rx="18" fill="url(#bgGrad)"/>
 
-  <!-- border (fixed to match 250 height) -->
-  <rect x="3" y="3" width="594" height="244" rx="18"
+  <!-- border -->
+  <rect x="3" y="3" width="494" height="214" rx="18"
         fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
 
   <!-- TITLE -->
-  <text x="40" y="60"
+  <text x="30" y="55"
         fill="#c4b5fd"
-        font-size="28"
+        font-size="24"
         font-family="Trebuchet MS, Verdana, sans-serif"
         font-weight="700">
     Hey There !
   </text>
 
   <!-- PARAGRAPH -->
-  <text x="40" y="120"
+  <text x="30" y="105"
         fill="#ffffff"
-        font-size="14"
+        font-size="12.5"
         font-family="Trebuchet MS, Verdana, sans-serif">
 
-    <tspan x="40" dy="0">
+    <tspan x="30" dy="0">
       I'm Chiraz, a passionate Data Science student and Web Developer
     </tspan>
 
-    <tspan x="40" dy="24">
+    <tspan x="30" dy="18">
       I enjoy building clean, creative and useful projects.
     </tspan>
 
-    <tspan x="40" dy="24">
+    <tspan x="30" dy="18">
       I love learning new technologies and improving my skills step by step.
     </tspan>
 
-    <tspan x="40" dy="24">
-      Always curious, always evolving  👾
+    <tspan x="30" dy="18">
+      Always curious, always evolving 👾
     </tspan>
 
   </text>
