@@ -2,7 +2,9 @@
   <img src="banner.svg" width="100%">
 </p>
 <div align="center">
-
+<p align="center">
+  <img src="./about-me.svg" width="600"/>
+</p>
 
   <!-- Color-Coded Stats -->
   <p>
