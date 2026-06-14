@@ -9,10 +9,12 @@
 
   <!-- background -->
   <rect width="600" height="160" rx="15" fill="#10002b"/>
+
+  <!-- border -->
   <rect x="2" y="2" width="596" height="156" rx="15"
         fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
 
-  <!-- TITLE (same font + light animation) -->
+  <!-- TITLE FLOATING ONLY -->
   <text x="300" y="45"
         text-anchor="middle"
         fill="#c4b5fd"
@@ -20,23 +22,17 @@
         font-family="Trebuchet MS, Verdana, sans-serif"
         font-weight="700">
 
-    <tspan>
-      Hey There !
-      <animate attributeName="opacity"
-        values="0;1"
-        dur="1.2s"
-        fill="freeze"/>
+    Hey There !
 
-      <animateTransform attributeName="transform"
-        type="translate"
-        values="0,10; 0,0"
-        dur="1.2s"
-        fill="freeze"/>
-    </tspan>
+    <animateTransform attributeName="transform"
+      type="translate"
+      values="0,0; 0,-6; 0,0"
+      dur="3s"
+      repeatCount="indefinite"/>
 
   </text>
 
-  <!-- TEXT (no animation) -->
+  <!-- TEXT STATIC -->
   <text x="300" y="80"
         text-anchor="middle"
         fill="#ffffff"
