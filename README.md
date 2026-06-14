@@ -27,21 +27,16 @@
   </tr>
 </table>
 
-<table width="100%" border="0" cellpadding="10" align="center">
+<table width="100%" cellpadding="20" style="border-collapse: separate; border-spacing: 15px;">
   <tr>
-    <!-- LEFT: GitHub Stats (purple background from the image itself) -->
+    <!-- Left Column: GitHub Stats -->
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=chirazchadliha&show_icons=true&hide_border=true&bg_color=10002b&text_color=ffffff&icon_color=7b2cbf&title_color=7b2cbf" alt="Chiraz's Stats" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=chirazchadliha&show_icons=true&hide_border=true&bg_color=10002b&text_color=ffffff&icon_color=7b2cbf&title_color=7b2cbf" width="100%" />
     </td>
-  <!-- RIGHT: Tech Stack with matching purple background -->
-    <td width="50%" align="center" valign="top" style="background-color: #10002b ; border-radius: 12px; padding: 20px 15px;">
-      <h3 style="color: #c4b5fd; font-family: Trebuchet MS, Verdana, sans-serif; margin: 0 0 15px 0;">🛠 Tech Stack</h3>
-      <p style="margin: 0;">
-        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Machine%20Learning-5a189a?style=for-the-badge" />
-      </p>
+ <!-- Right Column: Tech Stack (Purple Card) -->
+    <td width="50%" align="center" valign="top" style="background-color: #10002b; border: 2px solid #7b2cbf; border-radius: 18px; padding: 20px;">
+      <h3 style="color: #c4b5fd; margin-top: 0;">🛠 Tech Stack</h3>
+      <img src="https://skillicons.dev/icons?i=nodejs,js,html,css,laravel,python,react,flutter,github&theme=dark" width="100%" alt="Tech Stack" />
     </td>
   </tr>
 </table>
