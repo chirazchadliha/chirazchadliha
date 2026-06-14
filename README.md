@@ -3,9 +3,6 @@
 </p>
 <div align="center">
 
-  <!-- Header Section -->
-  <h1 align="center">Hi, I'm Chiraz Chadli! 👋</h1>
-  <p align="center"><strong>Full-Stack Developer | ML Enthusiast</strong></p>
 
   <!-- Color-Coded Stats -->
   <p>
