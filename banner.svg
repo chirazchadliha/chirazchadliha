@@ -92,16 +92,21 @@
         font-size="22"
         fill="#e0aaff">
         Data Science | Web Developer
-        <tspan>
-          <animate attributeName="opacity"
-            values="1;1;0;0"
-            keyTimes="0;0.49;0.5;1"
-            dur="1s"
-            begin="1.6s"
-            repeatCount="indefinite"/>
-          ▌
-        </tspan>
       </text>
     </g>
+
+    <!-- Animated divider line -->
+    <line x1="450" y1="200" x2="750" y2="200"
+        stroke="url(#textGrad)"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-dasharray="300"
+        stroke-dashoffset="300">
+      <animate attributeName="stroke-dashoffset"
+        values="300;0"
+        dur="1s"
+        begin="1.4s"
+        fill="freeze"/>
+    </line>
   </g>
 </svg>
