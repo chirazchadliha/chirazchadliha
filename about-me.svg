@@ -1,45 +1,61 @@
-<svg width="800" height="400" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#7b2cbf"/>
       <stop offset="100%" stop-color="#c4b5fd"/>
     </linearGradient>
+
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10002b"/>
+      <stop offset="100%" stop-color="#1a0040"/>
+    </linearGradient>
   </defs>
 
   <!-- background -->
-  <rect width="1200" height="200" rx="18" fill="#10002b"/>
+  <rect width="600" height="400" rx="18" fill="url(#bgGrad)"/>
 
   <!-- border -->
-  <rect x="3" y="3" width="1194" height="194" rx="18"
+  <rect x="3" y="3" width="594" height="394" rx="18"
         fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
 
   <!-- TITLE -->
-  <text x="600" y="55"
+  <text x="300" y="70"
         text-anchor="middle"
         fill="#c4b5fd"
-        font-size="30"
+        font-size="28"
         font-family="Trebuchet MS, Verdana, sans-serif"
         font-weight="700">
     Hey There !
   </text>
 
-  <!-- TEXT -->
-  <foreignObject x="180" y="85" width="840" height="100">
-    <div xmlns="http://www.w3.org/1999/xhtml"
-         style="
-           color:white;
-           font-size:15px;
-           font-family:Trebuchet MS, Verdana, sans-serif;
-           text-align:center;
-           line-height:1.6;
-         ">
+  <!-- PARAGRAPH -->
+  <text x="300" y="140"
+        text-anchor="middle"
+        fill="#ffffff"
+        font-size="15"
+        font-family="Trebuchet MS, Verdana, sans-serif">
 
-      I'm Chiraz, a passionate Data Science student and Web Developer who loves turning ideas into real, creative projects.
-      I enjoy learning new technologies, solving problems, and constantly improving myself step by step.
-      Always curious, always evolving ✨
+    <tspan x="300" dy="0">
+      I'm Chiraz, a passionate Data Science student and Web Developer
+    </tspan>
 
-    </div>
-  </foreignObject>
+    <tspan x="300" dy="26">
+      I enjoy building clean, creative and useful projects that solve real problems.
+    </tspan>
+
+    <tspan x="300" dy="26">
+      I love learning new technologies, exploring AI and web development,
+    </tspan>
+
+    <tspan x="300" dy="26">
+      and turning ideas into real applications step by step.
+    </tspan>
+
+    <tspan x="300" dy="26">
+      Always curious, always improving, always evolving (‾◡◝)
+    </tspan>
+
+  </text>
 
 </svg>
