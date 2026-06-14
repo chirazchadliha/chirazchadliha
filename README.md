@@ -27,27 +27,24 @@
   </tr>
 </table>
 
-
-
-  <!-- Color-Coded Stats -->
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=chirazchadliha&show_icons=true&hide_border=true&bg_color=10002b&text_color=ffffff&icon_color=7b2cbf&title_color=7b2cbf" alt="Chiraz's Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chirazchadliha&layout=compact&hide_border=true&bg_color=10002b&text_color=ffffff&icon_color=7b2cbf&title_color=7b2cbf" alt="Top Langs" />
-  </p>
-
-  <br>
-
-  <!-- Tech Stack - Using custom colors in badges -->
-  <h3>🛠 Tech Stack</h3>
-  <p>
-    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Machine%20Learning-5a189a?style=for-the-badge" />
-  </p>
-
-  <br>
-
+<table width="100%" border="0" cellpadding="10" align="center">
+  <tr>
+    <!-- LEFT: GitHub Stats (purple background from the image itself) -->
+    <td width="50%" align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=chirazchadliha&show_icons=true&hide_border=true&bg_color=10002b&text_color=ffffff&icon_color=7b2cbf&title_color=7b2cbf" alt="Chiraz's Stats" width="100%" />
+    </td>
+  <!-- RIGHT: Tech Stack with matching purple background -->
+    <td width="50%" align="center" valign="top" style="background-color: #10002b ; border-radius: 12px; padding: 20px 15px;">
+      <h3 style="color: #c4b5fd; font-family: Trebuchet MS, Verdana, sans-serif; margin: 0 0 15px 0;">🛠 Tech Stack</h3>
+      <p style="margin: 0;">
+        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Machine%20Learning-5a189a?style=for-the-badge" />
+      </p>
+    </td>
+  </tr>
+</table>
   <!-- Footer/Socials -->
   <div style="background-color: #240046; padding: 20px; border-radius: 10px; color: white;">
     <h3>Connect with me</h3>
