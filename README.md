@@ -1,7 +1,6 @@
-  ## Hello World , I'm Chi O-o
-
-<!--
-**chirazchadliha/chirazchadliha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="banner.svg" width="100%">
+</p>
 
 Here are some ideas to get you started:
 
