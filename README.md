@@ -27,10 +27,7 @@
   </tr>
 </table>
 
-<!-- OUTSIDE: smaller third graph -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chirazchadliha&bg_color=FFFFFF&color=7b2cbf&line=9d4edd&point=7b2cbf&area=true&hide_border=true" width="60%" />
-</p>
+
 
   <!-- Color-Coded Stats -->
   <p>
