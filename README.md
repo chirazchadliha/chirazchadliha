@@ -1,13 +1,20 @@
 <p align="center">
   <img src="banner.svg" width="100%">
-<!-- TABLE: bigger and centered -->
 <table width="100%" border="0" align="center">
   <tr>
     <td width="50%" align="center" valign="top">
       <img src="./about-me.svg" width="100%" />
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=chirazchadliha&theme=default&hide_border=true&background=FFFFFF&stroke=7b2cbf&ring=7b2cbf&fire=9d4edd" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=chirazchadliha&theme=default&hide_border=true&background=FFFFFF&stroke=7b2cbf&ring=7b2cbf&fire=9d4edd"
+           width="100%" />
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=chirazchadliha&bg_color=FFFFFF&color=7b2cbf&line=9d4edd&point=7b2cbf&area=true&hide_border=true"
+           width="85%" />
     </td>
   </tr>
 </table>
