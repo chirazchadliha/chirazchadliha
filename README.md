@@ -45,14 +45,8 @@
   </tr>
 </table>
   <!-- Footer/Socials -->
-  <div style="background-color: #240046; padding: 20px; border-radius: 10px; color: white;">
-    <h3>Connect with me</h3>
-    <p>Always building something "high-class" and efficient.</p>
-    <p>
-      <a href="mailto:your-email@example.com" style="color: #7b2cbf; text-decoration: none;">Email</a> | 
-      <a href="https://linkedin.com/in/yourprofile" style="color: #7b2cbf; text-decoration: none;">LinkedIn</a>
-    </p>
-  </div>
+ <p align="center">
+  <img src="connect.svg" width="100%">
 
 </div>
 <div align="center">
