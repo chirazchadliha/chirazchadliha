@@ -13,7 +13,7 @@
   </defs>
 
   <!-- background -->
-  <rect width="500" height="220" rx="18" fill="url(#bgGrad)"/>
+  <rect width="500" height="300" rx="18" fill="url(#bgGrad)"/>
 
   <!-- border -->
   <rect x="3" y="3" width="494" height="214" rx="18"
@@ -31,23 +31,22 @@
   <!-- PARAGRAPH -->
   <text x="30" y="105"
         fill="#ffffff"
-        font-size="12.5"
+        font-size="15"
         font-family="Trebuchet MS, Verdana, sans-serif">
 
     <tspan x="30" dy="0">
       I'm Chiraz, a passionate Data Science student and Web Developer
     </tspan>
 
-    <tspan x="30" dy="18">
+    <tspan x="30" dy="22">
       I enjoy building clean, creative and useful projects.
     </tspan>
 
-    <tspan x="30" dy="18">
-      I love learning new technologies and improving my skills step by step.
+    <tspan x="30" dy="22">
+      I love learning new technologies and improving my skills
     </tspan>
-
-    <tspan x="30" dy="18">
-      Always curious, always evolving 👾
+    <tspan x="30" dy="22">
+     step by step .   Always curious, always evolving 👾
     </tspan>
 
   </text>
