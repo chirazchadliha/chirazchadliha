@@ -62,7 +62,6 @@
     </g>
 
     <!-- ========== LEFT SIDE ========== -->
-    <!-- TITLE with slide‑up + fade + floating bounce -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,25; 0,0" dur="1.2s" fill="freeze"
@@ -82,7 +81,6 @@
       </text>
     </g>
 
-    <!-- TAGLINE (two lines) with slide‑up + fade -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,25; 0,0" dur="1.2s" begin="0.3s" fill="freeze"
@@ -103,33 +101,31 @@
       </text>
     </g>
 
-    <!-- ========== RIGHT SIDE – CLICKABLE LINKS ========== -->
-    <!-- EMAIL (clickable) -->
+    <!-- ========== RIGHT SIDE – CLICKABLE (YOUR REAL INFO) ========== -->
+    <!-- Email -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,30; 0,0" dur="1.2s" begin="0.6s" fill="freeze"
         calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
       <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.6s" fill="freeze"/>
 
-      <a xlink:href="mailto:chiraz.chadlihch@gmail.com" target="_blank">
-        <!-- Icon -->
+      <a xlink:href="mailto:chadlihch@gmail.com" target="_blank">
         <g transform="translate(750, 105)">
           <rect width="40" height="28" rx="6"
             fill="none" stroke="#ffffff" stroke-width="1.5"/>
           <polyline points="0,0 20,14 40,0"
             fill="none" stroke="#ffffff" stroke-width="1.5"/>
         </g>
-        <!-- Text -->
         <text x="810" y="125"
           font-family="Trebuchet MS, Verdana, sans-serif"
           font-size="16"
           fill="#ffffff">
-          chiraz.chadliha@example.com
+          chadlihch@gmail.com
         </text>
       </a>
     </g>
 
-    <!-- LINKEDIN (clickable) -->
+    <!-- LinkedIn -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,30; 0,0" dur="1.2s" begin="0.9s" fill="freeze"
@@ -137,7 +133,6 @@
       <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.9s" fill="freeze"/>
 
       <a xlink:href="https://linkedin.com/in/chiraz-chadli-841869255/" target="_blank">
-        <!-- Icon -->
         <g transform="translate(750, 150)">
           <rect width="40" height="28" rx="6"
             fill="none" stroke="#ffffff" stroke-width="1.5"/>
@@ -147,15 +142,14 @@
             font-size="13"
             font-weight="bold">in</text>
         </g>
-        <!-- Text -->
         <text x="810" y="170"
           font-family="Trebuchet MS, Verdana, sans-serif"
           font-size="16"
           fill="#ffffff">
-          linkedin.com/in/chirazchadliha
+          in/chiraz-chadli-841869255
         </text>
       </a>
     </g>
 
   </g>
-</svg> 
+</svg>
