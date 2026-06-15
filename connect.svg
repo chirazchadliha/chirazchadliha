@@ -1,0 +1,89 @@
+<svg width="560" height="220" viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10002b"/>
+      <stop offset="100%" stop-color="#1a0040"/>
+    </linearGradient>
+
+    <!-- Border gradient with animation -->
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7b2cbf">
+        <animate attributeName="stop-color" values="#7b2cbf;#c4b5fd;#7b2cbf" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#c4b5fd">
+        <animate attributeName="stop-color" values="#c4b5fd;#7b2cbf;#c4b5fd" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Shine gradient for the text -->
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="560" height="220" rx="20" fill="url(#bg)" stroke="url(#border)" stroke-width="2.5"/>
+
+  <!-- Subtle inner glow -->
+  <rect x="5" y="5" width="550" height="210" rx="16" fill="none" stroke="#7b2cbf" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="280" y="50" text-anchor="middle" fill="url(#shine)" font-size="26" font-family="'Trebuchet MS', Verdana, sans-serif" font-weight="bold" filter="url(#glow)">
+    Connect with me
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Tagline -->
+  <text x="280" y="85" text-anchor="middle" fill="#c4b5fd" font-size="14" font-family="'Trebuchet MS', sans-serif" font-style="italic" opacity="0.9">
+    Always building something "high-class" and efficient.
+  </text>
+
+  <!-- Divider line -->
+  <line x1="80" y1="105" x2="480" y2="105" stroke="#7b2cbf" stroke-width="1" stroke-dasharray="4,4" opacity="0.6"/>
+
+  <!-- Email section -->
+  <g transform="translate(100, 140)">
+    <!-- Email icon (envelope) -->
+    <rect x="0" y="0" width="40" height="30" rx="6" fill="#7b2cbf" opacity="0.8"/>
+    <path d="M5 6 L20 16 L35 6" stroke="#fff" stroke-width="2" fill="none"/>
+    <path d="M5 6 L5 24 L35 24 L35 6" stroke="#fff" stroke-width="2" fill="none"/>
+    
+    <!-- Email text -->
+    <text x="50" y="20" fill="#ffffff" font-size="14" font-family="'Trebuchet MS', sans-serif">
+      <a href="mailto:chirazchadliha@example.com" style="fill:#c4b5fd; text-decoration:none;">chiraz.chadliha@example.com</a>
+    </text>
+  </g>
+
+  <!-- LinkedIn section -->
+  <g transform="translate(100, 180)">
+    <!-- LinkedIn icon -->
+    <rect x="0" y="0" width="40" height="30" rx="6" fill="#0077b5"/>
+    <text x="20" y="21" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">in</text>
+    
+    <!-- LinkedIn text -->
+    <text x="50" y="20" fill="#ffffff" font-size="14" font-family="'Trebuchet MS', sans-serif">
+      <a href="https://linkedin.com/in/chirazchadliha" style="fill:#c4b5fd; text-decoration:none;">linkedin.com/in/chirazchadliha</a>
+    </text>
+  </g>
+
+  <!-- Decorative dot animation -->
+  <circle cx="530" cy="30" r="3" fill="#c4b5fd">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="190" r="2" fill="#7b2cbf">
+    <animate attributeName="opacity" values="1;0;1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
