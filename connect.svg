@@ -1,4 +1,4 @@
-<svg width="100%" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -29,7 +29,7 @@
     <!-- BACKGROUND -->
     <rect width="1200" height="250" fill="url(#bgGrad)"/>
 
-    <!-- ORBS -->
+    <!-- ORBS (animated) -->
     <circle cx="140" cy="70" r="70" fill="url(#orbGrad)">
       <animateTransform attributeName="transform" type="translate"
         values="0,0; 25,-20; 0,0" dur="7s" repeatCount="indefinite"/>
@@ -62,7 +62,7 @@
     </g>
 
     <!-- ========== LEFT SIDE ========== -->
-    <!-- TITLE with slide‑up + fade + gentle floating bounce -->
+    <!-- TITLE with slide‑up + fade + floating bounce -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,25; 0,0" dur="1.2s" fill="freeze"
@@ -82,7 +82,7 @@
       </text>
     </g>
 
-    <!-- TAGLINE (two lines) with slide‑up + fade (no bounce) -->
+    <!-- TAGLINE (two lines) with slide‑up + fade -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,25; 0,0" dur="1.2s" begin="0.3s" fill="freeze"
@@ -103,51 +103,59 @@
       </text>
     </g>
 
-    <!-- ========== RIGHT SIDE ========== -->
-    <!-- EMAIL with slide‑up + fade (delayed) -->
+    <!-- ========== RIGHT SIDE – CLICKABLE LINKS ========== -->
+    <!-- EMAIL (clickable) -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,30; 0,0" dur="1.2s" begin="0.6s" fill="freeze"
         calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
       <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.6s" fill="freeze"/>
 
-      <g transform="translate(750, 105)">
-        <rect width="40" height="28" rx="6"
-          fill="none" stroke="#ffffff" stroke-width="1.5"/>
-        <polyline points="0,0 20,14 40,0"
-          fill="none" stroke="#ffffff" stroke-width="1.5"/>
-      </g>
-      <text x="810" y="125"
-        font-family="Trebuchet MS, Verdana, sans-serif"
-        font-size="16"
-        fill="#ffffff">
-        chiraz.chadliha@example.com
-      </text>
+      <a xlink:href="mailto:chiraz.chadlihch@gmail.com" target="_blank">
+        <!-- Icon -->
+        <g transform="translate(750, 105)">
+          <rect width="40" height="28" rx="6"
+            fill="none" stroke="#ffffff" stroke-width="1.5"/>
+          <polyline points="0,0 20,14 40,0"
+            fill="none" stroke="#ffffff" stroke-width="1.5"/>
+        </g>
+        <!-- Text -->
+        <text x="810" y="125"
+          font-family="Trebuchet MS, Verdana, sans-serif"
+          font-size="16"
+          fill="#ffffff">
+          chiraz.chadliha@example.com
+        </text>
+      </a>
     </g>
 
-    <!-- LINKEDIN with slide‑up + fade (delayed further) -->
+    <!-- LINKEDIN (clickable) -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,30; 0,0" dur="1.2s" begin="0.9s" fill="freeze"
         calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
       <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.9s" fill="freeze"/>
 
-      <g transform="translate(750, 150)">
-        <rect width="40" height="28" rx="6"
-          fill="none" stroke="#ffffff" stroke-width="1.5"/>
-        <text x="20" y="19"
-          text-anchor="middle"
-          fill="#ffffff"
-          font-size="13"
-          font-weight="bold">in</text>
-      </g>
-      <text x="810" y="170"
-        font-family="Trebuchet MS, Verdana, sans-serif"
-        font-size="16"
-        fill="#ffffff">
-        linkedin.com/in/chirazchadliha
-      </text>
+      <a xlink:href="https://linkedin.com/in/chiraz-chadli-841869255/" target="_blank">
+        <!-- Icon -->
+        <g transform="translate(750, 150)">
+          <rect width="40" height="28" rx="6"
+            fill="none" stroke="#ffffff" stroke-width="1.5"/>
+          <text x="20" y="19"
+            text-anchor="middle"
+            fill="#ffffff"
+            font-size="13"
+            font-weight="bold">in</text>
+        </g>
+        <!-- Text -->
+        <text x="810" y="170"
+          font-family="Trebuchet MS, Verdana, sans-serif"
+          font-size="16"
+          fill="#ffffff">
+          linkedin.com/in/chirazchadliha
+        </text>
+      </a>
     </g>
 
   </g>
-</svg>
+</svg> 
