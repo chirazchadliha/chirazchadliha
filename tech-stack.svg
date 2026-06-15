@@ -1,4 +1,4 @@
-<svg width="560" height="260" viewBox="0 0 560 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="560" height="160" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -12,42 +12,28 @@
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="560" height="260" rx="18"
+  <rect width="560" height="160" rx="18"
         fill="url(#bgGrad)"
         stroke="url(#borderGrad)"
-        stroke-width="2.5"/>
+        stroke-width="2"/>
 
-  <!-- Animated Title -->
   <g>
     <animateTransform
       attributeName="transform"
       type="translate"
-      values="0,0;0,-5;0,0"
+      values="0,0;0,-4;0,0"
       dur="4s"
       repeatCount="indefinite"/>
 
     <text x="280"
-          y="50"
+          y="80"
           text-anchor="middle"
           fill="#c4b5fd"
-          font-size="26"
+          font-size="28"
           font-family="Trebuchet MS, Verdana, sans-serif"
           font-weight="700">
       🛠 Tech Stack
     </text>
   </g>
-
-  <!-- Icons -->
-  <foreignObject x="45" y="90" width="470" height="120">
-    <div xmlns="http://www.w3.org/1999/xhtml"
-         style="display:flex;justify-content:center;align-items:center;">
-
-      <img
-        src="https://skillicons.dev/icons?i=nodejs,js,html,css,laravel,python,react,flutter,github&theme=dark"
-        width="470"/>
-
-    </div>
-  </foreignObject>
 
 </svg>
