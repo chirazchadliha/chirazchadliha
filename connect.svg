@@ -34,18 +34,16 @@
       <animateTransform attributeName="transform" type="translate"
         values="0,0; 25,-20; 0,0" dur="7s" repeatCount="indefinite"/>
     </circle>
-
     <circle cx="1070" cy="190" r="95" fill="url(#orbGrad)">
       <animateTransform attributeName="transform" type="translate"
         values="0,0; -30,15; 0,0" dur="9s" repeatCount="indefinite"/>
     </circle>
-
     <circle cx="1000" cy="55" r="50" fill="url(#orbGrad)">
       <animateTransform attributeName="transform" type="translate"
         values="0,0; 15,25; 0,0" dur="8s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- DECOR -->
+    <!-- DECOR LINES -->
     <g stroke="#7b2cbf" stroke-opacity="0.12" stroke-width="1" fill="none">
       <line x1="60" y1="210" x2="170" y2="160"/>
       <line x1="170" y1="160" x2="280" y2="200"/>
@@ -63,12 +61,13 @@
       <circle cx="1140" cy="40" r="3.5"/>
     </g>
 
-    <!-- TITLE (UNCHANGED ANIMATION) -->
+    <!-- ========== LEFT SIDE ========== -->
+    <!-- TITLE with slide‑up + fade + gentle floating bounce -->
     <g>
       <animateTransform attributeName="transform" type="translate"
         values="0,25; 0,0" dur="1.2s" fill="freeze"
         calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
-
+      <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate"
         values="0,0; 0,-6; 0,0" dur="4s" begin="1.2s"
         repeatCount="indefinite" additive="sum"/>
@@ -83,57 +82,57 @@
       </text>
     </g>
 
-    <!-- TAGLINE -->
-    <text x="80" y="145"
-      text-anchor="start"
-      font-family="Trebuchet MS, Verdana, sans-serif"
-      font-size="16"
-      fill="#c4b5fd">
-      Always building something "high-class"
-    </text>
-
-    <text x="80" y="168"
-      text-anchor="start"
-      font-family="Trebuchet MS, Verdana, sans-serif"
-      font-size="16"
-      fill="#c4b5fd">
-      and efficient.
-    </text>
-
-    <!-- LINE -->
-    <line x1="80" y1="175" x2="980" y2="175"
-      stroke="url(#textGrad)"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-dasharray="900"
-      stroke-dashoffset="900">
-      <animate attributeName="stroke-dashoffset"
-        values="900;0"
-        dur="1.2s"
-        begin="1.2s"
-        fill="freeze"/>
-    </line>
-
-    <!-- EMAIL -->
+    <!-- TAGLINE (two lines) with slide‑up + fade (no bounce) -->
     <g>
-      <g transform="translate(700, 165)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,25; 0,0" dur="1.2s" begin="0.3s" fill="freeze"
+        calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+      <animate attributeName="opacity" values="0;0;1" dur="1.2s" begin="0.3s" fill="freeze"/>
+
+      <text x="80" y="140"
+        font-family="Trebuchet MS, Verdana, sans-serif"
+        font-size="16"
+        fill="#c4b5fd">
+        Always building something "high-class"
+      </text>
+      <text x="80" y="163"
+        font-family="Trebuchet MS, Verdana, sans-serif"
+        font-size="16"
+        fill="#c4b5fd">
+        and efficient.
+      </text>
+    </g>
+
+    <!-- ========== RIGHT SIDE ========== -->
+    <!-- EMAIL with slide‑up + fade (delayed) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,30; 0,0" dur="1.2s" begin="0.6s" fill="freeze"
+        calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+      <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.6s" fill="freeze"/>
+
+      <g transform="translate(750, 105)">
         <rect width="40" height="28" rx="6"
           fill="none" stroke="#ffffff" stroke-width="1.5"/>
         <polyline points="0,0 20,14 40,0"
           fill="none" stroke="#ffffff" stroke-width="1.5"/>
       </g>
-
-      <text x="760" y="185"
+      <text x="810" y="125"
+        font-family="Trebuchet MS, Verdana, sans-serif"
         font-size="16"
-        fill="#ffffff"
-        font-family="Trebuchet MS, Verdana, sans-serif">
+        fill="#ffffff">
         chiraz.chadliha@example.com
       </text>
     </g>
 
-    <!-- LINKEDIN -->
+    <!-- LINKEDIN with slide‑up + fade (delayed further) -->
     <g>
-      <g transform="translate(700, 205)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,30; 0,0" dur="1.2s" begin="0.9s" fill="freeze"
+        calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+      <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.9s" fill="freeze"/>
+
+      <g transform="translate(750, 150)">
         <rect width="40" height="28" rx="6"
           fill="none" stroke="#ffffff" stroke-width="1.5"/>
         <text x="20" y="19"
@@ -142,11 +141,10 @@
           font-size="13"
           font-weight="bold">in</text>
       </g>
-
-      <text x="760" y="225"
+      <text x="810" y="170"
+        font-family="Trebuchet MS, Verdana, sans-serif"
         font-size="16"
-        fill="#ffffff"
-        font-family="Trebuchet MS, Verdana, sans-serif">
+        fill="#ffffff">
         linkedin.com/in/chirazchadliha
       </text>
     </g>
