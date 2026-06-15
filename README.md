@@ -30,13 +30,17 @@
 <table width="100%" cellpadding="20" style="border-collapse: separate; border-spacing: 15px;">
   <tr>
     <!-- Left Column: GitHub Stats -->
-    <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=chirazchadliha&show_icons=true&hide_border=true&bg_color=10002b&text_color=ffffff&icon_color=7b2cbf&title_color=7b2cbf" width="100%" />
-    </td>
+    <td width="50%" align="center" valign="middle">
+  <div style="display:flex; justify-content:center; align-items:center; height:100%;">
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=chirazchadliha&show_icons=true&hide_border=true&bg_color=10002b&text_color=ffffff&icon_color=7b2cbf&title_color=7b2cbf"
+      width="100%"
+    />
+  </div>
+</td>
  <!-- Right Column: Tech Stack (Purple Card) -->
-    <td width="50%" align="center" valign="top" style="background-color: #10002b; border: 2px solid #7b2cbf; border-radius: 18px; padding: 20px;">
-      <h3 style="color: #c4b5fd; margin-top: 0;">🛠 Tech Stack</h3>
-      <img src="https://skillicons.dev/icons?i=nodejs,js,html,css,laravel,python,react,flutter,github&theme=dark" width="100%" alt="Tech Stack" />
+     <td width="50%" align="center" valign="top">
+      <img src="./tech-stack.svg" width="100%" />
     </td>
   </tr>
 </table>
